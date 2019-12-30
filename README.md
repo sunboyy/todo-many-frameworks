@@ -16,3 +16,4 @@ All web frameworks and backend are implemented in Node.js. So, you must have Nod
 ## Implemented frameworks
 
 - Angular
+- React
