@@ -12,6 +12,9 @@ export class TodoListHeaderComponent {
   add: EventEmitter<Todo> = new EventEmitter();
 
   addTodo() {
+    if (this.newTodo.title === '') {
+      return;
+    }
     this.add.emit(this.newTodo);
     this.newTodo = new Todo();
   }

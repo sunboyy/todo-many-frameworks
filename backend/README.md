@@ -6,4 +6,7 @@ The data is stored in the file `db.json`. To clear the data, delete `db.json`.
 
 Run the following command inside this folder.
 
-`$ node app.js`
+```
+$ npm install
+$ node app.js
+```

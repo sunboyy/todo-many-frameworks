@@ -10,7 +10,7 @@ export class TodoDataService {
   lastID = 0;
   todos: Todo[] = [];
 
-  constructor(private apiService: ApiService) { }
+  constructor(private apiService: ApiService) {}
 
   addTodo(todo: Todo): Observable<Todo> {
     return this.apiService.createTodo(todo);
